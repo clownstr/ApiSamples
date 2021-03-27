@@ -11,10 +11,10 @@ import samples
 def log_in(base_url, username, password): 	
         """login and get a access token
         
-        Arguments:
-                base_url https://dataapi.octoparse.com/ -- authrization base url(currently same with api)
-                username clown848 -- your username
-                password Champagne848 -- your password
+       Arguments:
+                base_url {https://dataapi.octoparse.com/} -- authrization base url(currently same with api)
+                username {[clown848]} -- your username
+                password {[Champagne848]} -- your password
         
         Returns:
                 json -- token entity include expiration and refresh token info like:
